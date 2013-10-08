@@ -30,6 +30,7 @@
 		637FC6EC1800C2D1009915FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637FC6EB1800C2D1009915FF /* Security.framework */; };
 		637FC6F01800CFCC009915FF /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FC6EE1800CFCC009915FF /* EventViewController.m */; };
 		637FC6F11800CFCC009915FF /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637FC6EF1800CFCC009915FF /* EventViewController.xib */; };
+		63A432111804A8BE00EA4F20 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A432101804A8BE00EA4F20 /* GeoFire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		637FC6ED1800CFCC009915FF /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		637FC6EE1800CFCC009915FF /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		637FC6EF1800CFCC009915FF /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		63A4320F1804A8BE00EA4F20 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		63A432101804A8BE00EA4F20 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 			children = (
 				637FC6B9180078A0009915FF /* AppDelegate.h */,
 				637FC6BA180078A0009915FF /* AppDelegate.m */,
+				63A4320F1804A8BE00EA4F20 /* GeoFire.h */,
+				63A432101804A8BE00EA4F20 /* GeoFire.m */,
 				637FC6D918007BE6009915FF /* MainViewController.h */,
 				637FC6DA18007BE6009915FF /* MainViewController.m */,
 				637FC6DB18007BE6009915FF /* MainViewController.xib */,
@@ -291,6 +296,7 @@
 				637FC6F01800CFCC009915FF /* EventViewController.m in Sources */,
 				637FC6DC18007BE6009915FF /* MainViewController.m in Sources */,
 				637FC6B7180078A0009915FF /* main.m in Sources */,
+				63A432111804A8BE00EA4F20 /* GeoFire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +507,7 @@
 				637FC6D5180078A0009915FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637FC6D6180078A0009915FF /* Build configuration list for PBXNativeTarget "Free FoodTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				637FC6D8180078A0009915FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
